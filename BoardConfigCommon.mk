@@ -63,6 +63,7 @@ $(call soong_config_set, ufsbsg, ufsframework, bsg)
 TARGET_BOOTLOADER_BOARD_NAME := taro
 TARGET_NO_BOOTLOADER := true
 
+# Broken rules
 BUILD_BROKEN_DUP_RULES := true
 
 # Camera
